@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'git remote add origin https://github.com/emersonft/teste_jenkins.git'
+        git 'https://github.com/emersonft/teste_jenkins.git'
       }
     }
 
