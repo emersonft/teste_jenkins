@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/emersonft/jenkins-kubernetes-deployment.git'
+        git 'git remote add origin https://github.com/emersonft/teste_jenkins.git'
       }
     }
 
